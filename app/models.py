@@ -4,7 +4,6 @@ from enum import Enum
 from pydantic import BaseModel
 from typing import Optional, List
 
-
 class DocumentResponse(BaseModel):
     page_content: str
     metadata: dict
