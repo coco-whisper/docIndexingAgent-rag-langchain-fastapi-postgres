@@ -7,7 +7,6 @@ from datetime import datetime, timezone
 from fastapi.responses import JSONResponse
 from app.config import logger
 
-
 async def security_middleware(request: Request, call_next):
     async def next_middleware_call():
         return await call_next(request)
