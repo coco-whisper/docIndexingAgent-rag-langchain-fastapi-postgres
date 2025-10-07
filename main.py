@@ -76,7 +76,6 @@ app.include_router(document_routes.router)
 if debug_mode:
     app.include_router(router=pgvector_routes.router)
 
-
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(request: Request, exc: RequestValidationError):
     body = await request.body()
