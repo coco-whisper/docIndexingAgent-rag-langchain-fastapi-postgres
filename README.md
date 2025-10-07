@@ -141,7 +141,6 @@ rag_api:
 
 This configuration will ensure that all HTTP/HTTPS requests from the RAG API container are routed through your specified proxy server.
 
-
 ### Cloud Installation Settings:
 
 #### AWS:
@@ -177,4 +176,5 @@ Run the following commands to install pre-commit formatter, which uses [black](h
 pip install pre-commit
 pre-commit install
 ```
+
 
