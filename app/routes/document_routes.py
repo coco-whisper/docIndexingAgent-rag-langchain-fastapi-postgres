@@ -41,7 +41,6 @@ from app.utils.health import is_health_ok
 
 router = APIRouter()
 
-
 def get_user_id(request: Request, entity_id: str = None) -> str:
     """Extract user ID from request or entity_id."""
     if not hasattr(request.state, "user"):
