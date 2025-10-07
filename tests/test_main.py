@@ -5,7 +5,6 @@ import pytest
 from fastapi.testclient import TestClient
 from langchain_core.documents import Document
 from concurrent.futures import ThreadPoolExecutor
-
 from main import app
 
 client = TestClient(app)
